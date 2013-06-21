@@ -8,4 +8,4 @@ version          '0.1.0'
 
 depends "rightscale"
 
-recipe "cookbookOne::default.rb", "Prints hello world to the audit log"
+recipe "cookbookOne::default", "Prints hello world to the audit log"
