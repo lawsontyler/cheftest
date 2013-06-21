@@ -21,11 +21,25 @@
   "replacing": {
   },
   "attributes": {
+    "food": {
+      "display_name": "My Food",
+      "description": "This is my favourite food",
+      "required": "required",
+      "recipes": [
+        "cookbookOne::about_me"
+      ],
+      "choice": [
+
+      ],
+      "calculated": false,
+      "type": "string"
+    }
   },
   "groupings": {
   },
   "recipes": {
+    "cookbookOne::about_me": "Prints some stuff about me",
     "cookbookOne::default": "Prints hello world to the audit log"
   },
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
