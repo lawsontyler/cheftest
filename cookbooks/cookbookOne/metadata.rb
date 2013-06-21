@@ -11,7 +11,7 @@ depends "rightscale"
 recipe "cookbookOne::about_me", "Prints some stuff about me"
 recipe "cookbookOne::default", "Prints hello world to the audit log"
 
-attribute "food",
+attribute "about_me/food",
   :display_name => "My Food",
   :description => "This is my favourite food",
   :required => "required",
